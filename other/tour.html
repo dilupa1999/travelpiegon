@@ -1,0 +1,887 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from https://themes.aksharwebtech.com/travexa/tour.html by HTTrack Website Copier/3.x [XR&CO], Sat, 21 Nov 2026 17:44:54 GMT -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Browse curated tour packages, group travel deals, and custom holiday itineraries across global hotspots.">
+    <meta name="keywords"
+        content="travel, tour, booking, luxury travel, vacation, holiday, hotel booking, travel agency" />
+    <meta name="author" content="Travel Piegon" />
+    <!-- Title -->
+    <title>Featured Tours & Expeditions - Travel Piegon</title>
+    <meta name="robots" content="index, follow">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Outfit:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <meta property="og:title" content="Featured Tours & Expeditions - Travel Piegon">
+    <meta property="og:description"
+        content="Browse curated tour packages, group travel deals, and custom holiday itineraries across global hotspots.">
+    <meta property="og:type" content="website">
+</head>
+
+<body class="bg-light">
+    <!-- PRELOADER -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <div class="spinner-ring"></div>
+            <img src="assets/images/logo-travel-piegon.png" alt="Travel Piegon Loading" class="preloader-logo">
+        </div>
+    </div>
+    <!-- TOP HEADER BAR -->
+    <div class="top-header d-none d-lg-block">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Side: Contact Info & Location -->
+                <div class="col-lg-7">
+                    <div class="d-flex align-items-center">
+                        <span class="top-header-link">
+                            <i class="fa-solid fa-location-dot top-header-icon" aria-hidden="true"></i>
+                            <span>World Trade Center, Bank of Ceylon Mawatha, Colombo, Sri Lanka</span>
+                        </span>
+                        <span class="top-header-divider" aria-hidden="true"></span>
+                        <a href="mailto:support@travelpigeon.com" class="top-header-link">
+                            <i class="fa-solid fa-envelope top-header-icon" aria-hidden="true"></i>
+                            <span>support@travelpigeon.com</span>
+                        </a>
+                        <span class="top-header-divider" aria-hidden="true"></span>
+                        <a href="tel:+01882827777" class="top-header-link">
+                            <i class="fa-solid fa-phone top-header-icon" aria-hidden="true"></i>
+                            <span>+01 (88) 282 7777</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Right Side: Selectors & Socials -->
+                <div class="col-lg-5">
+                    <div class="d-flex align-items-center justify-content-end gap-3">
+                        <!-- Language Dropdown -->
+                        <div class="dropdown top-header-dropdown">
+                            <button class="btn btn-link dropdown-toggle text-decoration-none" type="button"
+                                id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-globe me-1 top-header-icon" aria-hidden="true"></i> English
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                                <li><a class="dropdown-item active" href="javascript:void(0)">English</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">French</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">German</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">Spanish</a></li>
+                            </ul>
+                        </div>
+                        <span class="top-header-divider" aria-hidden="true"></span>
+                        <!-- Currency Dropdown -->
+                        <div class="dropdown top-header-dropdown">
+                            <button class="btn btn-link dropdown-toggle text-decoration-none" type="button"
+                                id="currencyDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-coins me-1 top-header-icon" aria-hidden="true"></i> USD ($)
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="currencyDropdown">
+                                <li><a class="dropdown-item active" href="javascript:void(0)">USD ($)</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">EUR (€)</a></li>
+                                <li><a class="dropdown-item" href="javascript:void(0)">INR (₹)</a></li>
+                            </ul>
+                        </div>
+                        <span class="top-header-divider" aria-hidden="true"></span>
+                        <!-- Social Links -->
+                        <div class="top-header-social">
+                            <a href="javascript:void(0)" class="top-header-social-link" aria-label="Facebook"
+                                title="Facebook">
+                                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="top-header-social-link" aria-label="Instagram"
+                                title="Instagram">
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="top-header-social-link" aria-label="LinkedIn"
+                                title="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="top-header-social-link" aria-label="YouTube"
+                                title="YouTube">
+                                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header class="main-header header-glass" id="mainHeader">
+        <nav class="navbar navbar-expand-lg py-0" aria-label="Main navigation">
+            <div class="container py-2">
+                <!-- Brand Logo -->
+                <a class="brand-logo" href="index-2.html" aria-label="Travel Piegon Homepage">
+                    <img src="assets/images/logo-travel-piegon.png" alt="Travel Piegon" class="brand-logo-img">
+                </a>
+                <!-- Mobile Toggler -->
+                <button class="navbar-toggler d-lg-none ms-auto me-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasMobileHeader" aria-controls="offcanvasMobileHeader"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+                <!-- Desktop Navigation Menu -->
+                <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+                    <ul class="navbar-nav align-items-lg-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="destination.html">Destinations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tour.html">Tours</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hotel.html">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Right Side Header Actions (Desktop Only) -->
+                <div class="header-actions d-none d-lg-flex">
+                    <!-- Search Icon Button -->
+                    <button type="button" class="action-btn" data-bs-toggle="modal" data-bs-target="#searchModal"
+                        aria-label="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <!-- Book Now CTA Button -->
+                    <a href="tour-booking.html" class="btn btn-primary">
+                        <span>Book Now</span>
+                        <i class="fa-solid fa-paper-plane fs-7"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MOBILE NAVIGATION MENU -->
+    <div class="offcanvas offcanvas-end offcanvas-mobile" tabindex="-1" id="offcanvasMobileHeader"
+        aria-labelledby="offcanvasMobileHeaderLabel">
+        <div class="offcanvas-header">
+            <a class="brand-logo" href="index-2.html" id="offcanvasMobileHeaderLabel">
+                <img src="assets/images/logo-travel-piegon.png" alt="Travel Piegon" class="brand-logo-img">
+            </a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+            <div>
+                <!-- Search Form -->
+                <div class="mb-4">
+                    <div class="input-group">
+                        <input type="text" class="form-control rounded-pill pe-5"
+                            placeholder="Search tours, destinations..." aria-label="Search tours">
+                    </div>
+                </div>
+                <!-- Mobile Navigation Menu Links -->
+                <ul class="nav flex-column offcanvas-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="tour.html">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hotel.html">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Footer & Contact -->
+            <div>
+                <a href="contact-us.html" class="btn btn-primary w-100 justify-content-center mb-3">
+                    <span>Book Now</span>
+                    <i class="fa-solid fa-paper-plane fs-7"></i>
+                </a>
+                <div class="offcanvas-contact-box text-center">
+                    <div class="fw-bold mb-1 fs-7">Need Assistance?</div>
+                    <a href="tel:+919876543210" class="text-primary fw-bold fs-7 d-block">+91 98765 43210</a>
+                    <a href="mailto:support@travelpigeon.com" class="text-muted fs-8">support@travelpigeon.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FULLSCREEN LUXURY SEARCH MODAL -->
+    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen m-0 p-0">
+            <div class="modal-content border-0 rounded-0">
+                <!-- Close Button -->
+                <button type="button" class="search-modal-close" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <div class="modal-body d-flex flex-column align-items-center justify-content-center text-center px-4">
+                    <div class="search-modal-content-wrap">
+                        <span class="search-modal-badge mb-3 d-inline-block">
+                            <i class="fa-solid fa-compass me-2 text-accent"></i>EXPLORE DESTINATIONS & TOURS
+                        </span>
+                        <h2 class="search-modal-title mb-4">Where would you like to explore?</h2>
+
+                        <form action="https://themes.aksharwebtech.com/travexa/destination.html" method="GET" class="search-modal-input-group">
+                            <i class="fa-solid fa-magnifying-glass search-modal-icon"></i>
+                            <input type="text" name="search" class="form-control search-modal-input"
+                                placeholder="Search by destination, tour name, or keywords..." autocomplete="off">
+                            <button type="submit" class="search-modal-submit-btn" aria-label="Search Submit">
+                                <span>Search</span>
+                                <i class="fa-solid fa-arrow-right ms-2"></i>
+                            </button>
+                        </form>
+
+                        <div class="search-modal-tags mt-4 pt-2">
+                            <span class="search-tags-label">Popular Searches:</span>
+                            <div class="d-flex flex-wrap justify-content-center gap-2 mt-3">
+                                <a href="destination.html" class="search-tag-chip"><i
+                                        class="fa-solid fa-umbrella-beach me-1 text-accent"></i> Maldives Resort</a>
+                                <a href="destination.html" class="search-tag-chip"><i
+                                        class="fa-solid fa-mountain me-1 text-accent"></i>
+                                    Swiss Alps Tour</a>
+                                <a href="destination.html" class="search-tag-chip"><i
+                                        class="fa-solid fa-water me-1 text-accent"></i>
+                                    Bali Beach Villa</a>
+                                <a href="destination.html" class="search-tag-chip"><i
+                                        class="fa-solid fa-sun me-1 text-accent"></i>
+                                    Dubai Desert Safari</a>
+                                <a href="destination.html" class="search-tag-chip"><i
+                                        class="fa-solid fa-landmark me-1 text-accent"></i>
+                                    Paris Romance</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BREADCRUMB HERO BANNER -->
+    <section class="tb-destination-hero position-relative overflow-hidden">
+        <img src="assets/images/srilanka/hero-srilanka.jpg" alt="Sri Lanka Tour Packages Banner"
+            class="tb-dest-hero-bg position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+        <div class="tb-dest-hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
+        <svg class="tb-flight-path-svg position-absolute top-50 start-50 translate-middle w-100 h-100"
+            viewBox="0 0 1440 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-100 200 C300 50, 700 350, 1540 150" stroke="rgba(255, 107, 0, 0.2)" stroke-width="2"
+                stroke-dasharray="8 8" />
+        </svg>
+        <div class="container position-relative z-2">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div class="tb-dest-header-card text-center" data-aos="zoom-in" data-aos-duration="800">
+                        <h1 class="fw-bold text-white mb-3">
+                            Tour <span class="text-accent position-relative d-inline-block">Packages
+                                <svg class="position-absolute bottom-0 start-0 w-100 heading-underline-svg"
+                                    viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 10C50 2 150 2 198 10" stroke="var(--accent)" stroke-width="4"
+                                        stroke-linecap="round"></path>
+                                </svg>
+                            </span>
+                        </h1>
+                        <p class="text-white-50 fs-6 mb-4">
+                            Handpicked luxury escapes, guided mountain treks, beach resorts, and cultural itineraries
+                            designed for extraordinary memories.
+                        </p>
+                        <nav aria-label="breadcrumb">
+                            <div
+                                class="tb-flight-breadcrumb d-inline-flex align-items-center justify-content-center gap-2 gap-sm-3">
+                                <a href="index-2.html" class="tb-bc-item">
+                                    <div class="tb-bc-icon"><i class="fa-solid fa-house"></i></div>
+                                    <span>Home</span>
+                                </a>
+                                <div class="tb-bc-divider position-relative">
+                                    <div class="tb-bc-line"></div>
+                                    <i
+                                        class="fa-solid fa-plane tb-bc-plane text-accent position-absolute top-50 start-50 translate-middle"></i>
+                                </div>
+                                <div class="tb-bc-item active" aria-current="page">
+                                    <div class="tb-bc-icon"><i class="fa-solid fa-compass"></i></div>
+                                    <span>Tour Packages</span>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLOATING SEARCH / FILTER BAR -->
+    <div class="container position-relative z-3" data-aos="fade-up" data-aos-delay="150">
+        <div class="hero-booking-bar">
+            <form action="https://themes.aksharwebtech.com/travexa/tour.html" method="POST">
+                <div class="row g-2 align-items-center">
+                    <!-- Search Input -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="booking-col">
+                            <i class="fa-solid fa-magnifying-glass booking-icon"></i>
+                            <div class="flex-grow-1">
+                                <div class="booking-title">Search Keywords</div>
+                                <input type="text" name="keyword" class="booking-sub"
+                                    placeholder="e.g. Paris, Alps, Beach..." aria-label="Search keywords">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tour Type Dropdown -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="booking-col position-relative">
+                            <i class="fa-solid fa-layer-group booking-icon"></i>
+                            <div class="flex-grow-1">
+                                <div class="booking-title">Tour Type</div>
+                                <div class="travexa-custom-select">
+                                    <div class="select-trigger">
+                                        <span class="select-value">All Tour Types</span>
+                                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                                    </div>
+                                    <div class="select-options">
+                                        <div class="select-option active" data-value="all">All Tour Types</div>
+                                        <div class="select-option" data-value="luxury">Luxury Escapes</div>
+                                        <div class="select-option" data-value="adventure">Adventure Treks</div>
+                                        <div class="select-option" data-value="beach">Beach Resorts</div>
+                                        <div class="select-option" data-value="cultural">Cultural Heritage</div>
+                                        <div class="select-option" data-value="wildlife">Wildlife Safaris</div>
+                                    </div>
+                                    <input type="hidden" name="tour_type" value="all" class="select-input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duration Dropdown -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="booking-col position-relative">
+                            <i class="fa-solid fa-clock booking-icon"></i>
+                            <div class="flex-grow-1">
+                                <div class="booking-title">Duration</div>
+                                <div class="travexa-custom-select">
+                                    <div class="select-trigger">
+                                        <span class="select-value">Any Duration</span>
+                                        <i class="fa-solid fa-chevron-down select-arrow"></i>
+                                    </div>
+                                    <div class="select-options">
+                                        <div class="select-option active" data-value="any">Any Duration</div>
+                                        <div class="select-option" data-value="1-3">1 – 3 Days</div>
+                                        <div class="select-option" data-value="4-7">4 – 7 Days</div>
+                                        <div class="select-option" data-value="8-14">8 – 14 Days</div>
+                                        <div class="select-option" data-value="15+">15+ Days</div>
+                                    </div>
+                                    <input type="hidden" name="duration" value="any" class="select-input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit Button -->
+                    <div class="col-lg-3 col-md-12">
+                        <button type="submit" class="btn btn-primary btn-search-hero w-100">
+                            <span>Search Packages</span>
+                            <i class="fa-solid fa-paper-plane fs-7 ms-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- MAIN TOUR LISTING SECTION -->
+    <section class="tour-listing-section">
+        <div class="container">
+            <!-- Category Filter Pills Bar -->
+            <div class="dest-filter-container d-flex flex-wrap align-items-center justify-content-center gap-2 mb-5"
+                data-aos="fade-up">
+                <button class="dest-filter-btn active">All Tour Packages</button>
+                <button class="dest-filter-btn">Luxury Escapes</button>
+                <button class="dest-filter-btn">Adventure Treks</button>
+                <button class="dest-filter-btn">Beach Resorts</button>
+                <button class="dest-filter-btn">Cultural Heritage</button>
+                <button class="dest-filter-btn">Wildlife Safaris</button>
+            </div>
+            <!-- Tour Cards Grid -->
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/sigiriya.jpg" alt="Sigiriya Tour Package"
+                                class="tour-card-img" loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 4.9 (128)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                5 Days / 4 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Sigiriya, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Ultimate Paris Cultural & City
+                                    Explorer</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">Skip-the-line Eiffel Tower access, Seine river cruise, and
+                                Louvre Museum passes.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-hotel"></i> Boutique Stay</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-car"></i> Transfer</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> Breakfast</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$799 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/ella-nine-arch.jpg" alt="Ella Tour Package"
+                                class="tour-card-img" loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 4.9 (94)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                7 Days / 6 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Ella Highlands, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Swiss Alps Mountain Trek &
+                                    Cable Car</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">Scenic Matterhorn views, panoramic train rides, and alpine
+                                chalet stays.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-hotel"></i> Resort</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-train"></i> Scenic Train</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> All Meals</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$1,299 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/mirissa-beach.jpg" alt="Mirissa Tour Package" class="tour-card-img"
+                                loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 4.8 (156)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                6 Days / 5 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Mirissa Coast, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Bali Beach Resort & Private
+                                    Villa Escape</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">Private pool villa in Ubud, Nusa Penida island boat tour,
+                                and spa treatments.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-umbrella-beach"></i> Villa</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-spa"></i> Spa Package</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> Breakfast</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$649 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/yala-safari.jpg" alt="Yala Tour Package"
+                                class="tour-card-img" loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 4.9 (112)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                4 Days / 3 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Yala National Park, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Dubai Luxury Desert Safari &
+                                    Burj Khalifa</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">Burj Khalifa 124th floor view, dune bashing 4x4 safari, and
+                                dhow dinner cruise.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-campground"></i> Safari Camp</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-car-side"></i> 4x4 Safari</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> Dinner</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$899 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/galle-fort.jpg" alt="Galle Tour Package" class="tour-card-img"
+                                loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 4.7 (88)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                5 Days / 4 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Galle Fort, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Rome Ancient Colosseum &
+                                    Vatican City</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">Colosseum underground access, Sistine Chapel guided tour,
+                                and Trevi Fountain.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-landmark"></i> Guided Pass</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-car"></i> Transfer</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> Breakfast</div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$749 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tour-card">
+                        <div class="tour-card-img-wrap">
+                            <img src="assets/images/srilanka/nuwara-eliya.jpg" alt="Nuwara Eliya Tour Package" class="tour-card-img"
+                                loading="lazy" decoding="async">
+                            <span
+                                class="badge bg-white text-dark position-absolute top-0 start-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold shadow-sm">
+                                <i class="fa-solid fa-star text-warning me-1"></i> 5.0 (210)
+                            </span>
+                            <span
+                                class="badge bg-accent text-white position-absolute top-0 end-0 m-3 rounded-pill px-3 py-1 fs-9 fw-bold">
+                                6 Days / 5 Nights
+                            </span>
+                        </div>
+                        <div class="tour-card-body">
+                            <div class="d-flex align-items-center gap-2 text-muted fs-8 mb-2">
+                                <i class="fa-solid fa-location-dot text-accent"></i> Nuwara Eliya, Sri Lanka
+                            </div>
+                            <h3 class="fw-bold text-primary fs-5 mb-2">
+                                <a href="tour-details.html" class="text-decoration-none">Maldives Overwater Luxury
+                                    Bungalow</a>
+                            </h3>
+                            <p class="text-muted fs-8 mb-3">All-inclusive water villa stay, speedboat airport transfer,
+                                and coral reef diving.</p>
+                            <div class="tour-inclusions-list">
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-hotel"></i> Colonial Stay</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-leaf"></i> Tea Tour</div>
+                                <div class="tour-inclusion-item"><i class="fa-solid fa-utensils"></i> All-Inclusive
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between pt-1">
+                                <div>
+                                    <span class="text-muted fs-9 text-uppercase tracking-wider d-block">Price
+                                        From</span>
+                                    <span class="fw-bold text-primary fs-5">$1,499 <span
+                                            class="fs-9 text-muted fw-normal">/ person</span></span>
+                                </div>
+                                <a href="tour-booking.html" class="btn btn-primary">
+                                    <span>Book Tour</span> <i class="fa-solid fa-arrow-right ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PAGINATION BAR -->
+            <div class="tour-pagination" data-aos="fade-up">
+                <a href="javascript:void(0)" class="page-link-custom"><i class="fa-solid fa-chevron-left"></i></a>
+                <a href="javascript:void(0)" class="page-link-custom active">1</a>
+                <a href="javascript:void(0)" class="page-link-custom">2</a>
+                <a href="javascript:void(0)" class="page-link-custom">3</a>
+                <a href="javascript:void(0)" class="page-link-custom"><i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+            <!-- WHY BOOK WITH US FEATURES STRIP -->
+            <div class="row g-4 mt-5 pt-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-white rounded-4 p-4 text-center border border-light shadow-sm h-100">
+                        <div class="dest-info-icon mx-auto mb-3 dest-support-icon-box">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h4 class="fw-bold text-primary fs-5 mb-2">Best Price Guarantee</h4>
+                        <p class="text-muted fs-8 mb-0">Unbeatable package rates with transparent pricing and zero
+                            hidden booking fees.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-white rounded-4 p-4 text-center border border-light shadow-sm h-100">
+                        <div class="dest-info-icon mx-auto mb-3 dest-support-icon-box">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h4 class="fw-bold text-primary fs-5 mb-2">Expert Local Guides</h4>
+                        <p class="text-muted fs-8 mb-0">Certified multilingual tour leaders providing deep cultural
+                            insights and safety.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-white rounded-4 p-4 text-center border border-light shadow-sm h-100">
+                        <div class="dest-info-icon mx-auto mb-3 dest-support-icon-box">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h4 class="fw-bold text-primary fs-5 mb-2">Instant Confirmation</h4>
+                        <p class="text-muted fs-8 mb-0">100% secure online reservation system with immediate mobile
+                            ticket issuance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-area ft-bg position-relative">
+        <!-- Footer Top Wave Shape Divider -->
+        <div class="footer-shape-top">
+            <img src="assets/images/shape-bottom.png" alt="Wave Shape">
+        </div>
+        <div class="text-shape">travexa</div>
+        <div class="footer-widget">
+            <div class="container">
+                <div class="footer-widget-wrap pt-100 pb-50">
+                    <div class="row g-4">
+                        <div class="col-lg-4">
+                            <div class="footer-widget-box about-us">
+                                <a href="index-2.html" class="footer-logo">
+                                    <img src="assets/images/logo-travel-piegon.png" alt="Travel Piegon">
+                                </a>
+                                <p>
+                                    We are many variations of passages available but the majority have suffered
+                                    alteration some looking at
+                                    its layout believable.
+                                </p>
+                                <div class="footer-social-box mt-70">
+                                    <h4>Follow Us On</h4>
+                                    <ul class="footer-social">
+                                        <li><a href="javascript:void(0)" aria-label="Facebook"><i
+                                                    class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" aria-label="Twitter"><i
+                                                    class="fa-brands fa-x-twitter"></i></a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" aria-label="LinkedIn"><i
+                                                    class="fa-brands fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li><a href="javascript:void(0)" aria-label="YouTube"><i
+                                                    class="fa-brands fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="footer-contact">
+                                <div class="footer-contact-wrap">
+                                    <div class="footer-contact-item">
+                                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                                        <div class="content">
+                                            <h5>Call Us</h5>
+                                            <a href="tel:+01882827777">+01 (88) 282 7777</a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-contact-item">
+                                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                                        <div class="content">
+                                            <h5>Mail Us</h5>
+                                            <a href="mailto:support@travelpigeon.com">support@travelpigeon.com</a>
+                                        </div>
+                                    </div>
+                                    <div class="footer-contact-item">
+                                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                                        <div class="content">
+                                            <h5>Our Address</h5>
+                                            <p>World Trade Center, Bank of Ceylon Mawatha, Colombo, Sri Lanka</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-lg-4">
+                                    <div class="footer-widget-box list">
+                                        <h4 class="footer-widget-title">Company</h4>
+                                        <ul class="footer-list">
+                                            <li><a href="about-us.html"><i class="fa fa-angle-double-right"></i> About
+                                                    Us</a></li>
+                                            <li><a href="faq.html"><i class="fa fa-angle-double-right"></i> FAQ's</a>
+                                            </li>
+                                            <li><a href="blog.html"><i class="fa fa-angle-double-right"></i> Update
+                                                    News</a></li>
+                                            <li><a href="contact-us.html"><i class="fa fa-angle-double-right"></i>
+                                                    Contact Us</a></li>
+                                            <li><a href="terms-conditions.html"><i class="fa fa-angle-double-right"></i>
+                                                    Terms Of Service</a>
+                                            </li>
+                                            <li><a href="privacy-policy.html"><i class="fa fa-angle-double-right"></i>
+                                                    Privacy policy</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-lg-4">
+                                    <div class="footer-widget-box list">
+                                        <h4 class="footer-widget-title">Popular Tour</h4>
+                                        <ul class="footer-list">
+                                            <li><a href="tour.html"><i class="fa fa-angle-double-right"></i> Solo
+                                                    Tour</a></li>
+                                            <li><a href="tour.html"><i class="fa fa-angle-double-right"></i> Family
+                                                    Tour</a></li>
+                                            <li><a href="tour.html"><i class="fa fa-angle-double-right"></i> Adventure
+                                                    Tour</a></li>
+                                            <li><a href="destination.html"><i class="fa fa-angle-double-right"></i>
+                                                    Beach Gateways</a></li>
+                                            <li><a href="tour.html"><i class="fa fa-angle-double-right"></i> Honeymoon
+                                                    Tour</a></li>
+                                            <li><a href="tour.html"><i class="fa fa-angle-double-right"></i> Group
+                                                    Tour</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="footer-widget-box">
+                                        <h4 class="footer-widget-title">Get In Touch</h4>
+                                        <div class="footer-newsletter mt-30">
+                                            <p>Subscribe Our Newsletter To Get Latest Update And News</p>
+                                            <div class="newsletter-form">
+                                                <form action="#" method="POST">
+                                                    <div class="form-group mb-0">
+                                                        <div class="form-icon">
+                                                            <i class="fa-solid fa-envelope"></i>
+                                                            <input type="email" class="form-control"
+                                                                placeholder="Your Email" required>
+                                                            <button class="theme-btn" type="submit"
+                                                                aria-label="Subscribe">
+                                                                <i class="fa-solid fa-paper-plane"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright text-center">
+                <p class="copyright-text">&copy; Copyright 2026 <a href="index.html">Travel Piegon</a> All Rights Reserved.</p>
+            </div>
+        </div>
+        <!-- Scroll To Top Button -->
+        <button id="scrollToTopBtn" class="scroll-to-top" aria-label="Scroll to top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/three.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/typed.umd.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+<!-- Mirrored from https://themes.aksharwebtech.com/travexa/tour.html by HTTrack Website Copier/3.x [XR&CO], Sat, 21 Nov 2026 17:44:54 GMT -->
+</html>
